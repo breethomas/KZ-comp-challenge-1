@@ -1,0 +1,64 @@
+/* 5 box across grid*/
+/*33.333% for height. 3 box up*/
+
+.site-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.main-pic {
+  display: flex;
+  width: 40%;
+  background-color: lightgreen;
+}
+
+
+.tile-box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  background: pink;
+}
+
+.tile {
+  width: calc(100% / 3);
+  height: calc(100% / 3);
+}
+
+.big-tile {
+  width: calc(200% / 3);
+  height: calc(100% / 3);
+}
+
+.tile1 {
+  background-color: blue;
+}
+
+.tile2 {
+  background-color: green;
+}
+
+.tile3 {
+  background-color: red;
+}
+
+.tile4 {
+  background-color: brown;
+}
+
+.tile5 {
+  background-color: yellow;
+}
+
+.tile6 {
+  background-color: pink;
+}
+
+.tile7 {
+  background-color: purple;
+}
+
+.tile8 {
+  background-color: gold;
+}
