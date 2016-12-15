@@ -8,17 +8,16 @@
 }
 
 .main-pic {
-  display: flex;
-  width: 40%;
+  flex: 1;
   background-color: lightgreen;
 }
-
 
 .tile-box {
   display: flex;
   flex-wrap: wrap;
-  width: 60%;
-  background: pink;
+  width: 100vh;
+  min-width: 600px;
+  min-height: 600px;
 }
 
 .tile {
@@ -32,33 +31,33 @@
 }
 
 .tile1 {
-  background-color: blue;
-}
-
-.tile2 {
   background-color: green;
 }
 
+.tile2 {
+  background-color: orange;
+}
+
 .tile3 {
-  background-color: red;
+  background-color: blue;
 }
 
 .tile4 {
-  background-color: brown;
+  background-color: red;
 }
 
 .tile5 {
-  background-color: yellow;
+  background-color: green;
 }
 
 .tile6 {
-  background-color: pink;
+  background-color: orange;
 }
 
 .tile7 {
-  background-color: purple;
+  background-color: blue;
 }
 
 .tile8 {
-  background-color: gold;
+  background-color: orange;
 }
