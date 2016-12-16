@@ -38,40 +38,40 @@
 }
 
 .tile1 {
-  background-color: green;
+  background-color: #F612EE;
 }
 
 .tile2 {
-  background-color: orange;
+  background-color: #5DF915;
 }
 
 .tile3 {
-  background-color: blue;
+  background-color: #F6EF2C;
 }
 
 .tile4 {
-  background-color: red;
+  background-color: black;
 }
 
 .tile5 {
-  background-color: green;
+  background-color: #F6EF2C;
 }
 
 .tile6 {
-  background-color: orange;
+  background-color: black;
 }
 
 .tile7 {
-  background-color: blue;
+  background-color: #F612EE;
 }
 
 .tile8 {
-  background-color: orange;
+  background-color: #5DF915;
 }
 
 .tile9 {
   /*extra tile*/
-  background-color: pink;
+  background-color: #F612EE;
 }
 
 
