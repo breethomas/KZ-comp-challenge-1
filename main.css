@@ -2,19 +2,18 @@
 /*33.333% for height. 3 box up*/
 
 
-
 .site-container {
   display: flex;
-  height: 100vh;
-  width: 100vw;
-  overflow: hidden;
+  flex-direction: column;
+  height: 100%;
 }
 
 
 .main-pic-frame {
   position: relative;
-  flex: 2;
+  flex: 3;
   overflow: visible;
+  height: 50vh;
 }
 
 .main-pic {
@@ -25,22 +24,19 @@
 
 .tile-box {
   display: flex;
-  overflow: scroll;
   flex-wrap: wrap;
-  flex: 3;
-  overflow-y: scroll;
+  height: 100%;
+  flex: 2;
 
 }
 
 .tile {
-  width: calc(100% / 3);
-  height: calc(100% / 3);
-  min-width: 33vh;
+  width: 50%;
+  height: 150px
 }
 
 .big-tile {
-  width: calc(200% / 3);
-  min-width: 66vh;
+  width: 100%;
 }
 
 .tile1 {
@@ -73,29 +69,4 @@
 
 .tile8 {
   background-color: orange;
-}
-
-
-@media (max-width: 980px) {
-  .main-pic {
-    background-color: red;
-  }
-}
-
-@media (max-width: 420px) {
-  .site-container {
-    flex-direction: column-reverse;
-    overflow: visible;
-  }
-
-  .tile-box {
-    overflow: visible;
-    flex: 1;
-  }
-
-  .tile {
-    height: 200px;
-    width: 100%
-  }
-
 }
