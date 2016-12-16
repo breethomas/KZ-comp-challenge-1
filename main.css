@@ -50,15 +50,13 @@
   bottom: 40px;
 
   display: inline;
-  width: 40px;
+  width: auto;
   height: 20px;
 
-  padding: 0 20px;
-  border: 5px solid white;
-  font-size: 1em;
+  padding: 0 20px 5px 20px;
+  border: 3px solid white;
+  font-size: 1.3em;
   font-weight: bold;
-
-
 }
 
 .resume-button {
@@ -67,6 +65,14 @@
 
 .contact-button {
   left: 150px;
+}
+
+.big-tile h1 {
+  font-size: 2em;
+}
+
+.big-tile p {
+  padding-top: 20px;
 }
 
 .tile1 {
