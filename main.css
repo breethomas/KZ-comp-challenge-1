@@ -20,21 +20,53 @@
   z-index: -99;
 }
 
+
 .tile-box {
   display: flex;
   flex-wrap: wrap;
   height: 100%;
   flex: 2;
-
 }
 
 .tile {
   width: 50%;
-  height: 50vw
+  height: 50vw;
+  color: white;
 }
 
 .big-tile {
   width: 100%;
+}
+
+.big-tile-content {
+  padding: 20px;
+  position: relative;
+  width: 90%;
+  height: 90%;
+}
+
+.button {
+  position: absolute;
+  bottom: 40px;
+
+  display: inline;
+  width: 40px;
+  height: 20px;
+
+  padding: 0 20px;
+  border: 5px solid white;
+  font-size: 1em;
+  font-weight: bold;
+
+
+}
+
+.resume-button {
+
+}
+
+.contact-button {
+  left: 150px;
 }
 
 .tile1 {
