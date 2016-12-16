@@ -96,21 +96,21 @@
     overflow: hidden;
     height: 100vh;
     width: auto;
+    flex: 2
   }
 
   .tile-box {
     height: 100vh;
-    width: calc(calc(100vh/3)*3);
-
+    flex: 3;
   }
 
   .tile {
-    width: calc(100vh/3);
-    height: calc(100vh/3);
+    width: calc(100%/3);
+    height: calc(100%/3);
   }
 
   .big-tile {
-    width: calc(200vh/3);
+    width: calc(200%/3);
   }
 
   .tile9 {
