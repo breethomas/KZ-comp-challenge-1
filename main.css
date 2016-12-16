@@ -1,6 +1,8 @@
 /* 5 box across grid*/
 /*33.333% for height. 3 box up*/
-
+body {
+  font-family: 'Share Tech Mono', monospace;
+}
 
 .site-container {
   display: flex;
@@ -41,6 +43,7 @@
 .icon {
   width: 80%;
   height: 80%;
+  fill: white;
 
 
 }
@@ -96,6 +99,7 @@
 }
 
 .tile3 {
+  color: black;
   background-color: #F6EF2C;
 }
 
@@ -104,6 +108,7 @@
 }
 
 .tile5 {
+  color: black;
   background-color: #F6EF2C;
 }
 
