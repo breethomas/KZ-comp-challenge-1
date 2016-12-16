@@ -27,9 +27,9 @@ body {
   width: 35px;
   height: auto;
 
-  border: 2px dashed rgba(246, 239, 44, 0.3);
+  border: 2px dashed rgba(246, 239, 44, 0.4);
   border-radius: 50px;
-  background-color: rgba(246, 18, 238, 0.2);
+  background-color: rgba(93, 249, 21, 0.21);
 }
 
 .left-button {
