@@ -20,7 +20,6 @@
   z-index: -99;
 }
 
-
 .tile-box {
   display: flex;
   flex-wrap: wrap;
@@ -29,13 +28,26 @@
 }
 
 .tile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 50%;
   height: 50vw;
   color: white;
+  font-size: 1.2em;
+}
+
+.icon {
+  width: 80%;
+  height: 80%;
+
+
 }
 
 .big-tile {
   width: 100%;
+  font-size: 1em;
 }
 
 .big-tile-content {
@@ -154,6 +166,4 @@
   .tile9 {
     display: none;
   }
-
-
 }
