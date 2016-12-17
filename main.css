@@ -1,11 +1,13 @@
 body {
   font-family: 'Share Tech Mono', monospace;
+  background-color: #5DF915;
 }
 
 .site-container {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  overflow-x: hidden;
 }
 
 /*main picture*/
@@ -175,7 +177,7 @@ body {
 }
 
 
-@media (min-width: 650px) {
+@media (min-width: 450px) {
   .site-container {
     flex-direction: row-reverse;
     overflow: hidden;
