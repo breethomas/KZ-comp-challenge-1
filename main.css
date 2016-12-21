@@ -6,7 +6,6 @@ body {
 body {
   font-family: 'Share Tech Mono', monospace;
   background-color: #5DF915;
-  height: 100%
 }
 
 .site-container {
@@ -99,6 +98,7 @@ body {
   width: 100%;
   font-size: 1em;
   background-color: #F612EE;
+  min-height: 175px;
 }
 
 .big-tile-content {
