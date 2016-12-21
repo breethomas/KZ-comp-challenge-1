@@ -1,12 +1,17 @@
+html,
+body {
+  height: 100%;
+}
+
 body {
   font-family: 'Share Tech Mono', monospace;
   background-color: #5DF915;
+  height: 100%
 }
 
 .site-container {
   display: flex;
   flex-direction: column;
-  height: 100vh;
   overflow-x: hidden;
 }
 
@@ -93,7 +98,7 @@ body {
 .big-tile {
   width: 100%;
   font-size: 1em;
-  height:
+  background-color: #F612EE;
 }
 
 .big-tile-content {
@@ -135,10 +140,6 @@ body {
 
 .big-tile p {
   padding-top: 20px;
-}
-
-.tile1 {
-  background-color: #F612EE;
 }
 
 .tile2 {
