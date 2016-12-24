@@ -1,0 +1,228 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Share Tech Mono', monospace;
+  background-color: #5DF915;
+}
+
+.site-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/*main picture*/
+.main-pic-frame {
+  position: relative;
+  flex: 3;
+  height: 50vh;
+}
+
+.main-pic {
+  position: absolute;
+  z-index: -99;
+}
+
+.pic-button {
+  position: absolute;
+  top: 50%;
+
+  width: 35px;
+  height: auto;
+
+  border: 2px dashed rgba(246, 239, 44, 0.4);
+  border-radius: 50px;
+  background-color: rgba(93, 249, 21, 0.21);
+}
+
+.left-button {
+  left: 10px;
+  transform: rotate(180deg);
+}
+
+.right-button {
+  right: 10px;
+}
+
+.dot-box {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+
+  display: flex;
+  justify-content: space-between;;
+  width: 40px;
+  height: 10px;
+}
+
+.dot {
+  width: 10px;
+  height: auto;
+  background-color: rgba(246, 239, 44, 0.3);
+  border-radius: 10px;
+}
+
+.focus {
+  background-color: #F6EF2C;
+}
+
+/*tile box*/
+.tile-box {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  flex: 2;
+}
+
+.tile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50vw;
+  color: white;
+  font-size: 1.2em;
+}
+
+.icon {
+  width: 80%;
+  height: 80%;
+  fill: white;
+}
+
+.big-tile {
+  width: 100%;
+  font-size: 1em;
+  background-color: #F612EE;
+  min-height: 175px;
+}
+
+.big-tile-content {
+  padding: 20px;
+  position: relative;
+  width: 90%;
+  height: 90%;
+}
+
+.button {
+  position: absolute;
+  top: 120px;
+
+  display: inline;
+  width: auto;
+
+
+  margin-top: 10px;
+  padding: 1px 20px 4px 20px;
+  border: 3px solid white;
+  background-color: transparent;
+  font-family: inherit;
+  color: inherit;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.resume-button {
+/*hold pls*/
+}
+
+.contact-button {
+  left: 160px;
+}
+
+.big-tile h1 {
+  font-size: 2em;
+}
+
+.big-tile p {
+  padding-top: 20px;
+}
+
+.tile2 {
+  background-color: #5DF915;
+}
+
+.tile3 {
+  color: black;
+  background-color: #F6EF2C;
+}
+
+.tile4 {
+  background-color: black;
+}
+
+.tile5 {
+  color: black;
+  background-color: #F6EF2C;
+}
+
+.tile6 {
+  background-color: black;
+}
+
+.tile7 {
+  background-color: #F612EE;
+}
+
+.tile8 {
+  background-color: #5DF915;
+}
+
+.tile9 {
+  /*extra tile*/
+  background-color: #F612EE;
+}
+
+
+/* @media (min-width: 450px) { */
+/*   .site-container { */
+/*     flex-direction: row-reverse; */
+/*     overflow: hidden; */
+/*   } */
+
+/*   .tile { */
+/*     height: calc(100vh/3) */
+/*   } */
+
+/*   .tile-box { */
+/*     overflow: scroll; */
+/*   } */
+
+/*   .main-pic-frame { */
+/*     height: 100vh; */
+/*   } */
+
+/*   .button { */
+/*     bottom: 40px; */
+/*   } */
+/* } */
+
+/* @media (min-width: 1000px) { */
+/*   .main-pic-frame { */
+/*     overflow: hidden; */
+/*     height: 100vh; */
+/*     width: auto; */
+/*     flex: 2 */
+/*   } */
+
+/*   .tile-box { */
+/*     height: 100vh; */
+/*     flex: 3; */
+/*   } */
+
+/*   .tile { */
+/*     width: calc(100%/3); */
+/*     height: calc(100%/3); */
+/*   } */
+
+/*   .big-tile { */
+/*     width: calc(200%/3); */
+/*   } */
+
+/*   .tile9 { */
+/*     display: none; */
+/*   } */
+/* } */

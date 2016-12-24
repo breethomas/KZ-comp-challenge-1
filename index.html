@@ -2,73 +2,68 @@
 <html>
   <head>
     <meta charset='utf-8'>
-    <title>Comp template</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=true;">
+    <title>You're Awesome</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=true;'>
     <link rel='stylesheet' type='text/css' href='reset.css'>
     <link rel='stylesheet' type='text/css' href='main.css'>
-    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Share+Tech+Mono' rel='stylesheet'>
   </head>
   <body>
-    <div class='site-container'>
-      <section class='main-pic-frame'>
+    <section class='site-container'>
+      <section class='image-container'>
         <div class="dot-box">
-          <div class="dot focus"></div>
           <div class="dot"></div>
           <div class="dot"></div>
+          <div class="dot"></div>
         </div>
-        <div class='left-button pic-button'>
-          <img src='icons/svg/play-button.svg'>
-        </div>
-        <div class='right-button pic-button'>
-          <img src='icons/svg/play-button.svg'>
-        </div>
-        <img class='main-pic' src="https://www.fillmurray.com/g/700/900">
+        <img src='svg/play-button.svg' class='left-arrow' alt='carousel button left'>
+        <img src='svg/play-button.svg' class='right-arrow' alt='carousel button right'>
       </section>
-      <section class='tile-box'>
-        <div class='tile tile1 big-tile'>
-          <section class='big-tile-content'>
-          <h1>Iam a Website</h1>
-            <p>
-            hello. this is website.<br>
-            this is place to click.<br>
-            this is place to scroll.<br>
-            </p>
-            <button class='button resume-button'>resume</button>
-            <button class='button contact-button'>contact</button>
+      <section class='tile-container'>
+        <div class='heading-tile'>
+          <section class='heading-content'>
+            <h1>I am a Website</h1>
+            <p>hello. this is website.</p>
+            <p>this is place to click.</p>
+            <p>this is place to scroll.</p>
+            <div class='btn-container'>
+              <button class='button'>resume</button>
+              <button class='button'>contact</button>
+            </div>
           </section>
         </div>
-        <div class='tile tile2'>
-          <img class='icon' src='icons/svg/book.svg'>
-          <p>Books<p>
+        <div class='tile books'>
+          <img class='icon' src='svg/book.svg' alt='book icon'>
+          <p>Books</p>
         </div>
-        <div class='tile tile3'>
-          <img class='icon' src='icons/svg/eye.svg'>
-          <p>Looks<p>
+        <div class='tile looks'>
+          <img class='icon' src='svg/eye.svg' alt='eye icon'>
+          <p>Looks</p>
         </div>
-        <div class='tile tile4'>
-          <img class='icon' src='icons/svg/idea.svg'>
+        <div class='tile blinks'>
+          <img class='icon' src='svg/idea.svg' alt='lightbulb icon'>
           <p>Blinks</p>
         </div>
-        <div class='tile tile5'>
-          <img class='icon' src='icons/svg/line-chart.svg'>
+        <div class='tile graphs'>
+          <img class='icon' src='svg/line-chart.svg' alt='chart icon'>
           <p>Graphs</p>
         </div>
-        <div class='tile tile6'>
-          <img class='icon' src='icons/svg/megaphone.svg'>
+        <div class='tile heys'>
+          <img class='icon' src='svg/megaphone.svg' alt='megaphone icon'>
           <p>Heys</p>
         </div>
-        <div class='tile tile7'>
-          <img class='icon' src='icons/svg/battery.svg'>
+        <div class='tile powers'>
+          <img class='icon' src='svg/battery.svg' alt='battery icon'>
           <p>Powers</p>
         </div>
-        <div class='tile tile8'>
-          <img class='icon' src='icons/svg/key.svg'>
+        <div class='tile keys'>
+          <img class='icon' src='svg/key.svg' alt='key icon'>
           <p>Keys</p>
         </div>
-        <div class='tile tile9'>
-          oh my!
+        <div class='tile' id='footer-tile'>
+          <p>oh my!</p>
         </div>
       </section>
-    </div>
+    </section>
   </body>
 </html>
